@@ -1,0 +1,8 @@
+[
+ {"id":1,"caption":"Banani","icon":"image/Banani.jpg","text1" : "Starts from 15,000tk.","text2" : "230 flats"},
+ {"id":2,"caption":"Bashundhara","icon":"image/Bashundhara.jpg","text1" : "Starts from 22,000tk.","text2" : "275 flats"},
+ {"id":3,"caption":"Dhanmondi","icon":"image/Dhanmondi.jpg","text1" : "Starts from 27,000tk.","text2" : "120 flats"},
+ {"id":4,"caption":"Gulshan","icon":"image/Gulashan.jpg","text1" : "Starts from 32,000tk.","text2" : "150 flats"},
+ {"id":5,"caption":"Mirpur","icon":"image/Mirpur.jpg","text1" : "Starts from 12,000tk.","text2" : "193 flats"},
+ {"id":1,"caption":"Uttara","icon":"image/Uttara.jpg","text1" : "Starts from 10,000tk.","text2" : "167 flats"}
+]

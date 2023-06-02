@@ -1,0 +1,27 @@
+.list-item{
+    list-style: none;
+    margin: 1.2em 0;
+    background-color: rgb(138, 191, 193);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 1.2em 1.5em;
+}
+.list-itemi svg{
+    color: rgba(4, 4, 98, 0.762);
+}
+.list-item svg:first-child{
+font-size: 1.2em;
+margin-right: 0.8em;
+}
+.list-item p{
+    flex: 1;
+    font-size: 0.9em;
+}
+.list-item .actions {
+    justify-self: flex-end;
+    cursor: pointer;
+}
+.list-item .actions .fa-spinner{
+    font-size: 1.2em;
+}

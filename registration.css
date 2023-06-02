@@ -1,0 +1,72 @@
+.containerSignUp{
+    position: relative;
+    background-color: whitesmoke;
+    height: 713px;
+}
+.signSection{
+    padding: 50px;
+   position: relative;
+    border-radius: 10px;
+
+}
+.leftdata{
+    width: 400px;
+    margin-left: 500px;
+    border-radius: 25px;
+    background-color: cadetblue;
+}
+.leftdata h2{
+    font-weight: bolder;
+    font-size: 2.2rem;
+    color: whitesmoke;
+    margin-left: 100px;
+    padding: 10px;
+}
+.leftdata1{
+    width: 400px;
+    margin-left: 500px;
+    border-radius: 25px;
+    background-color: cadetblue;
+}
+
+.pass
+{
+    color: black;
+}
+
+.leftdata1 h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    color: whitesmoke;
+    /* margin-left: 80px; */
+    padding: 10px;
+}
+.form{
+    padding: 15px;
+    width: 400px;
+}
+.fieldForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 8px;
+    height: 50px;
+    width: auto;
+}
+.link{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 10px;
+}
+.form .inbtn{
+background-color: black;
+margin-left: 140px;
+margin-top: 10px;
+}
+.radio{
+   color : white; font-weight: bolder;
+    
+}

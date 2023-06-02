@@ -1,0 +1,74 @@
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+    transition: opacity ease-in-out 0.5s;
+}
+.header{
+    background-color: whitesmoke;
+}
+.container-slider{
+    background-color: azure;
+}
+.img-slider{
+    width: 97%;
+    height: 400px;
+    margin: 20px;
+    object-fit: cover;
+}
+.left-arrow{
+    height: 50px;
+    width: 50px;
+}
+.custom-indicator{
+    bottom: -95px;
+}
+.custom-indicator li{
+     width: 80px;
+     height: 80px;
+     filter: grayscale(100%);
+}
+.custom-indicator li.slick-active{
+    filter: grayscale(0%);
+}
+.cardDesc{
+    margin-top: 130px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+.cardDesc h2{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: 0px;
+}
+.cardDesc p{
+    font-weight: bolder;
+    text-decoration: solid ;
+    font-size: 25px;
+}
+.btnn {
+    background-color: rgba(13, 107, 13, 0.837);
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+    font-weight: bolder;
+}
+.btnn i{
+    color: white;
+    padding: 5px;
+}
+.btnnn{
+    background-color: rgba(22, 65, 193, 0.837);
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+    font-weight: bolder;
+}
+.btnnn i{
+    color: white;
+    padding: 5px;
+}

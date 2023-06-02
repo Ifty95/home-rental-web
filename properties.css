@@ -1,0 +1,93 @@
+.searchContainer {
+    width: 100%;
+    background-color: cadetblue;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative ;
+}
+
+.searchContainer h6 {
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+    font-size: larger;
+}
+
+.searchContainer div {
+    padding: 15px;
+}
+
+select,input {
+    width: 150px;
+    height: 50px;
+}
+
+.dropdown1 {
+    margin-left: 370px;
+}
+
+.searchIcon {
+    font-size: 10px;
+    margin-top: 40px;
+    padding: 0;
+    color: black;
+}
+
+.searchIcon a {
+    color: black;
+    font-size: 1em;
+
+}
+
+.rowProperty {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: whitesmoke;
+}
+
+.colProperty {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+}
+
+.cardProperty {
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 0;
+    height: 200px;
+    width: 300px;
+}
+.bodyPart a{
+    text-decoration: none;
+    color: black;
+}
+.bodyPart .btnn {
+    background-color: rgba(13, 107, 13, 0.837);
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+}
+
+.bodyPart .btnn i {
+    color: white;
+    padding: 5px;
+}
+
+.bodyPart .btn {
+    background-color: transparent;
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+}
+
+.bodyPart .btn i {
+    color: blue;
+    padding: 5px;
+}
+
+.bodyPart p {
+    font-weight: bold;
+    margin: 0;
+    margin-left: 5px;
+}

@@ -1,0 +1,92 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  } 
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } */
+  .hedu{
+    text-align: center;
+    margin-left: 730px;
+    font-weight: bolder;
+    font-size: 30px;
+   
+
+  }
+
+ .container_about h3{
+    font-weight: bolder;
+    font-size: 25px;
+    align-items: center;
+    margin-left: 80px;
+  }
+  .container_about{
+    background-color: whitesmoke;
+  }
+  .rowabout{
+    display: flex;
+    width: 760px;  
+    margin-left: 445px;
+  }
+  .columnAbout{
+    width: 760px;
+  }
+  .cardAbout_about{
+    width: 380px;
+    height: auto;
+    padding: 20px;
+    margin-left: 30px;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 5px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  .cardAbout_about img{
+    background-color: whitesmoke;
+  }
+
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  .container_about::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  /* @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  } */
